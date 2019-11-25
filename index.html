@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="content">
+            <h1 id="h1Name">New York Times Search</h1>
+        </div>
+    </header>
+    ​
+    <div id="substance" class="content container">
+
+        <h1 id="subTitle">Search Parameters</h1>
+        ​
+        <form action="/action_page.php">
+            Search Term:
+            <input placeholder="" type="text" name="name" id="name">
+            <br>
+            Start Year(Optional):
+            <input placeholder="" type="text" name="startDate" id="startDate"> 
+            <br>
+            End Year(Optional):
+            <input placeholder="" type="text" name="endDate" id="endDate">
+
+            <br><br>
+            <button type="button" id = "searchButton">Search</button>
+            <button type="button" id = "clearButton">Clear</button>
+        </form>
+    </div>
+
+    <div class="container" id = "results" >
+
+    </div>
+
+    <footer>
+        <div class="content container">
+            Made with lots and lots of &hearts;
+        </div>
+    </footer>
+    ​
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
